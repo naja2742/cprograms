@@ -1,0 +1,59 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
+  Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+    int mn;
+    printf("enter a month number(1-12):");
+    scanf("%d", &mn);
+    if(mn==1)
+    {
+        printf("January ");
+    }else if(mn==2)
+    {
+        printf("February ");
+    }else if(mn==3)
+    {
+        printf("march ");
+    }else if(mn==4)
+    {
+        printf("april ");
+    }else if(mn==5)
+    {
+        printf("may ");
+    }else if(mn==6)
+    {
+        printf("June ");
+    }else if(mn==7)
+    {
+        printf("July ");
+    }else if(mn==8)
+    {
+        printf("august ");
+    }else if(mn==9)
+    {
+        printf("September ");
+    }else if(mn==10)
+    {
+        printf("Octomber");
+    }else if(mn==11)
+    {
+        printf("November");
+    }
+    else if(mn==12)
+    {
+        printf("December");
+    }
+    else
+    {
+        printf("there is no month for this number");
+    }
+    return 0;
+}
